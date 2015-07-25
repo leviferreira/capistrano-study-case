@@ -1,1 +1,1 @@
-role :web, %w{vagrant@33.33.33.91}
+role :web, %w{vagrant@33.33.33.91 }
