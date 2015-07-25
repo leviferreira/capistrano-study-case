@@ -5,8 +5,16 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (~> 1.3)
+    capistrano-composer (0.0.6)
+      capistrano (>= 3.0.0.pre)
+    capistrano-file-permissions (0.1.1)
+      capistrano (~> 3.1)
     capistrano-multiconfig (3.0.8)
       capistrano (>= 3.0.0)
+    capistrano-symfony (0.4.0)
+      capistrano (~> 3.1)
+      capistrano-composer (~> 0.0.3)
+      capistrano-file-permissions (~> 0.1.0)
     colorize (0.7.7)
     i18n (0.7.0)
     net-scp (1.2.1)
@@ -23,7 +31,9 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano (>= 3.0.0)
+  capistrano-composer
   capistrano-multiconfig (>= 3.0.3)
+  capistrano-symfony
 
 BUNDLED WITH
-   1.10.6
+   1.10.3
