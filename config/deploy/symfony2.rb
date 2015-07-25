@@ -1,3 +1,6 @@
+require 'capistrano/composer'
+require 'capistrano/symfony'
+
 set :repo_url, 'https://github.com/leviferreira/symfony-standard.git'
 
 set :linked_dirs, ['app/cache', 'app/logs']
